@@ -1,0 +1,29 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+/dist
+/build
+
+# IDE
+.vscode/
+.idea/
+
+# Excluded from publishing
+README.md
+.env
+.env.*
+!.env.example
+env.txt
+node_modules/
+.next/
+dist/
+build/
